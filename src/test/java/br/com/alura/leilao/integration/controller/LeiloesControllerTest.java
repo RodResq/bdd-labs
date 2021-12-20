@@ -29,6 +29,7 @@ public class LeiloesControllerTest extends TestBase {
 	@Autowired
 	UsuarioRepository usuarios;
 
+
 	@Test
 	public void verificaSePaginaDeLeiloesCarrega() throws Exception {
 		mockMvc.perform(MockMvcRequestBuilders.get("/leiloes"))
